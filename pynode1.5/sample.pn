@@ -1,0 +1,15 @@
+let x = 5;
+print x;  // xの値を出力
+
+let arr = [1, 2, 3];
+for i in arr {
+    print i;  // 配列の要素を出力
+}
+
+if x > 3 {
+    print "x is greater than 3";  // 条件に基づく出力
+}
+
+let y = 2;
+let sum = x + y;
+print "The sum onf x and y is: " + sum;  // xとyの合計を出力
